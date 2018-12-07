@@ -12,7 +12,9 @@ body{
     height: 55px;
     margin: 0px auto;
     padding: 0px;
-    background: #A4A4A4;
+    background: #A4A4A4; 
+    position: fixed;
+    z-index: 1;
 }
 
 #menu ul {
@@ -55,7 +57,7 @@ body{
 }
 
 header {
-    margin-top: 25px;
+    padding-top: 70px;
     text-align: center;
     font-family: fonte-nome-pagina, serif;
     font-size: 25px;
@@ -151,7 +153,7 @@ header {
 
 #sobre h1{
     text-align: center;
-    font-family: fonte-pagina-blog, serif;
+    font-family: fonte-nome-pagina, serif;
     margin-top: 30px;
     font-size: 70px;
     color: #B40404;
@@ -301,6 +303,53 @@ header {
     font-size: 13px;
     text-align: center;
     padding: 5px 20px;
+}
+
+/*-----------------------------------------------------*/
+
+/*Sessão de Contato*/
+
+#contato{
+    width: 100%
+    height: 370px;
+    float: left;
+}
+
+#contato h3  {
+    margin: 0px 0px 10px 0px;
+    color: #B40404;
+    font-size: 30px;
+    font-family: fonte-nome-pagina, serif;
+}
+
+#contato h4{
+    float: right;
+    margin-top: 60px;
+    margin-left: -500px;
+
+}
+
+#nomeCompleto{
+    border: 3px solid #B40404;
+}
+
+#email{
+    margin-top: 10px;
+}
+
+#fone{
+    margin-top: 10px;
+}
+
+#mensagem{
+    float: right;
+    margin-top: -100px;
+    margin-left: 150px;
+}
+#enviar{
+    float: right;
+    margin-top: 80px;
+    margin-left:-40px;
 }
 
 /*-----------------------------------------------------*/
