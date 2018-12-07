@@ -1,0 +1,332 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #FAFAFA;
+}
+
+#menu {
+    width: 100%;
+    height: 55px;
+    margin: 0px auto;
+    padding: 0px;
+    background: #A4A4A4;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    line-height: normal;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline-block;
+   
+}
+
+#menu a {
+    display: block;
+    letter-spacing: 1px;
+    margin: 0px 10px;
+    line-height: 55px;
+    padding: 0 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color:#FFFFFF;
+    border: none;
+}
+
+#menu li:hover { 
+    background-color: #B40404; ;
+    }
+
+/*Adcionando uma fonte externa*/
+@font-face{
+    font-family: 'fonte-nome-pagina';
+    src: url("fontes/Another Flight.otf")
+}
+
+header {
+    margin-top: 25px;
+    text-align: center;
+    font-family: fonte-nome-pagina, serif;
+    font-size: 25px;
+    color: #000;   
+}
+
+/*-----------------------------------------------------*/
+
+/*Estilizando o main*/
+
+ main{
+    max-width: 1024px;
+    min-width: 950px;
+    height: 100%;
+    margin: 0px auto;
+}
+
+/*-----------------------------------------------------*/
+
+/*Sessão de Destaque*/
+
+#destaque {
+    width: 100%;
+    height: 310px;
+    margin-top: 20px;
+}
+
+#slider img{
+    width: 90%;
+    margin-top: 0px;
+    float: right;
+}
+
+#b1{
+    position: relative;
+    right: 20px;
+    top: 0px;
+}
+#b2{
+    position: relative;
+    right: 20px;
+    top: -295px;
+}
+
+#b3{
+    position: relative;
+    right: 20px;
+    top: -590px;
+}
+
+#destaque p {
+    float: left;
+    color: #000;
+}
+
+#destaque div {
+    width: 48%;
+    float: left;
+
+}
+
+#destaque div h3 {
+    margin: 24px 0px 5px 10px;
+    color: #B40404;
+    font-size: 30px;
+    font-family: fonte-nome-pagina, serif;
+    margin-top: 0px;
+}
+
+#destaque div p {
+    font-size: 13px;
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    font-family: arial, sans-serif;
+}
+
+/*-----------------------------------------------------*/
+
+/*Sessão Sobre o Blog*/
+
+#sobre{
+    width: 100%;
+    height: 350px;
+    margin-top: -570px;
+    float: left;
+}
+
+@font-face{
+    font-family: 'fonte-pagina-blog';
+    src: url("fontes/Twisted System DEMO.otf");
+}
+
+#sobre h1{
+    text-align: center;
+    font-family: fonte-pagina-blog, serif;
+    margin-top: 30px;
+    font-size: 70px;
+    color: #B40404;
+}
+
+#sobre h3{
+    margin: 0px 0px 10px 0px;
+    color: #B40404;
+    font-size: 30px;
+    font-family: fonte-nome-pagina, serif;
+    margin-top: 20px;
+}
+
+#sobre p{
+    text-align: center;
+    text-align: justify;
+}
+
+/*-----------------------------------------------------*/
+
+/*Sessão de Postagens*/
+
+#postagens {
+    width: 100%;
+    height: 360px;
+    float: left;
+    margin-top: -210px;
+}
+
+#postagens h3  {
+    margin: 0px 0px 10px 0px;
+    color: #B40404;
+    font-size: 30px;
+    font-family: fonte-nome-pagina, serif;
+}
+
+#postagens article {
+    width: 24%;
+    height: 80%;
+    padding: 0px 4px;
+    float: left;
+    border-left: 1px dashed #B40404;
+    font-family: arial, sans-serif;
+    
+}
+
+#postagens article:last-child {
+    border-right: 1px dashed #B40404;
+}
+
+#postagens article:hover {
+    background-color:#E6E6E6;
+}
+
+#postagens article figure {
+    width: 128px;
+    height: 128px;
+    margin: 28px auto;
+}
+
+#postagens article h4 {
+    color: #000;
+    width: 160px;
+    margin: 5px auto;
+    font-size: 12px;
+}
+#postagens article h6{
+    font-size: 10px;
+    color:#B40404;
+    float: right;
+    margin-top: 5px;
+}
+
+#postagens article p {
+    font-size: 13px;
+    text-align: center;
+    padding: 5px 20px;
+    text-align: justify;
+    color: #000;
+}
+#postagens article ul{
+    text-align: center;
+    margin-top: 50%;
+    list-style-type: none;
+}
+
+#postagens a {
+    display: block;
+    margin-top: 50%;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    border: none;
+}
+
+/*-----------------------------------------------------*/
+
+/*Sessão de Depoimentos*/
+
+#depoimentos {
+    width: 100%;
+    height: 370px;
+    float: left;
+    margin-top: 0px;
+}
+
+#depoimentos h3  {
+    margin: 0px 0px 10px 0px;
+    color: #B40404;
+    font-size: 30px;
+    font-family: fonte-nome-pagina, serif;
+}
+
+#depoimentos article {
+    width: 24%;
+    height: 85%;
+    padding: 0px 4px;
+    float: left;
+    border-left: 1px dotted #B40404;
+}
+
+#depoimentos article:last-child {
+    border-right: 1px dotted #B40404;
+}
+
+
+#depoimentos article:hover {
+    background-color: #E6E6E6;
+}
+
+#depoimentos article figure img{
+    width: 230px;
+    margin-left: 7px;
+}
+
+#depoimentos article h4 {
+    text-align: center;
+    font-size: 15px;
+    color: #0c6189;
+    width: 160px;
+    margin: 5px auto;
+}
+
+#depoimentos article p {
+    font-size: 13px;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+/*-----------------------------------------------------*/
+
+/*Sessão de Rodapé*/
+
+#footer {
+    height: 150px;
+    padding: 0px 0 15px 0;
+    background: #A4A4A4;
+    font-family: arial, sans-serif;
+    margin-top: 90%;
+    position: relative;
+}
+
+#footer p {
+    margin: 0;
+    padding-top: 40px;
+    line-height: normal;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #B40404;
+}
+
+/*ESTILOS PARA A PÁGINA SOBRE NÓS*/
+
+
