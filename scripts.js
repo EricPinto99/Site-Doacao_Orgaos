@@ -23,3 +23,4 @@ function slider(){
 
 	sliderTimer = setInterval(troca,tempoSlider);
 }
+
