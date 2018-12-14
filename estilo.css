@@ -89,6 +89,9 @@ header {
     width: 90%;
     margin-top: 0px;
     float: right;
+    border-radius: 10px;
+    background: #333;
+    padding: 2px;
 }
 
 #b1{
@@ -325,7 +328,7 @@ header {
     text-align: center;
 }
 
-.gallery-container {
+.galeria {
   width: 100%;
   position: relative;
   margin: 0 5%;
@@ -333,9 +336,9 @@ header {
   padding: 2px;
 }
   @media (min-width: 480px) {
-      .gallery-container {
-        width: 650px;
-        margin-left: 200px;
+      .galeria {
+        width: 400px;
+        margin-left: 300px;
       }
   }
 
