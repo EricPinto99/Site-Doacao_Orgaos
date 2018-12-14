@@ -277,25 +277,24 @@ header {
     background-color: #E6E6E6;
 }
 
-#depoimentos article img{
-
-}
-
 #img1{
     width: 100px;
-
+    margin-left: 30%;
 }
 
 #img2{
     width: 150px;
+    margin-left: 20%;
 }
 
 #img3{
     width: 120px;
+    margin-left: 20%;
 }
 
 #img4{
     width: 150px;
+    margin-left: 20%;
 }
 
 #depoimentos article h4 {
@@ -318,7 +317,6 @@ header {
 /*-----------------------------------------------------*/
 
 /*Sessão de Galeria*/
-
 
 
 #galeria h3{
@@ -454,6 +452,7 @@ header {
 #doador input{
     border-radius: 10px;
     background: #B40404;
+    color: #FFFFFF;
 }
 
 #doador label, input, select{
@@ -467,7 +466,7 @@ header {
 }
 
 #doador h4{
-    margin-left: : 0px;
+    margin-left: 0px;
 }
 
 #nome  {
