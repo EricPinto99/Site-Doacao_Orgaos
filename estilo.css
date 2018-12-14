@@ -217,39 +217,25 @@ header {
 
 #postagens article h4 {
     color: #000;
-    width: 160px;
     margin: 5px auto;
-    font-size: 12px;
+    font-size: 15px;
+    text-align: center;
 }
 #postagens article h6{
     font-size: 10px;
+    font-family: arial, sans-serif;
     color:#B40404;
     float: right;
     margin-top: 5px;
 }
 
 #postagens article p {
-    font-size: 13px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
     text-align: center;
     padding: 5px 20px;
     text-align: justify;
     color: #000;
-}
-#postagens article ul{
-    text-align: center;
-    margin-top: 50%;
-    list-style-type: none;
-}
-
-#postagens a {
-    display: block;
-    margin-top: 50%;
-    text-align: center;
-    font-family: arial, sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    color: #000;
-    border: none;
 }
 
 /*-----------------------------------------------------*/
@@ -272,11 +258,12 @@ header {
 
 #depoimentos article {
     width: 24%;
-    height: 85%;
+    height: 310px;
     padding: 0px 4px;
     float: left;
     border-left: 1px dotted #B40404;
 }
+
 
 #depoimentos article:last-child {
     border-right: 1px dotted #B40404;
@@ -288,32 +275,48 @@ header {
 }
 
 #depoimentos article img{
-    width: 200px;
-    margin-left: 7px;
-   
+
 }
 
 #img1{
-    height: 200px;
+    width: 100px;
+
+}
+
+#img2{
+    width: 150px;
+}
+
+#img3{
+    width: 120px;
+}
+
+#img4{
+    width: 150px;
 }
 
 #depoimentos article h4 {
     text-align: center;
     font-size: 15px;
-    color: #0c6189;
+    font-family: arial, sans-serif;
+    color: #000;
     width: 160px;
     margin: 5px auto;
 }
 
 #depoimentos article p {
     font-size: 13px;
+    font-family: arial, sans-serif;
     text-align: center;
+    text-align: justify;
     padding: 5px 20px;
 }
 
 /*-----------------------------------------------------*/
 
 /*Sessão de Galeria*/
+
+
 
 #galeria h3{
     color: #B40404;
@@ -381,10 +384,9 @@ header {
   width: 100%;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
+  color: #000;
+  font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -507,16 +509,20 @@ header {
 
 #cadastrar{
     background: #B40404;
-    margin-top: 30px;
+    margin-top: 20px;
     height: 40px;
     width: 80px;
     border-radius: 10px;
-    margin-left: -10px;
+    margin-left: 0px;
 }
 
 #reset{
-    margin-left: 700px;
-    font-size: 20px;
+    background: #B40404;
+    margin-top: 20px;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    margin-left: 720px;
 }
 
 
